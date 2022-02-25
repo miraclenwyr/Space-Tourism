@@ -1,4 +1,4 @@
-const planet = [
+const planetLife = [
     {
         name:"MOON",
         about:"See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
@@ -36,11 +36,11 @@ const planet = [
 
 function changeplanet(x){
     
-    document.getElementById("image").src = planet[x].img; 
-    document.getElementById("nameofplanet").innerText = planet[x].name;
-    document.getElementById("description").innerText = planet[x].about;
-    document.getElementById("distance").innerText = planet[x].distance
-    document.getElementById("duration").innerText = planet[x].duration;
+    document.getElementById("image").src = planetLife[x].img; 
+    document.getElementById("nameofplanet").textContent = planetLife[x].name;
+    document.getElementById("description").textContent = planetLife[x].about;
+    document.getElementById("distance").textContent = planetLife[x].distance
+    document.getElementById("duration").textContent = planetLife[x].duration;
     
 }
 

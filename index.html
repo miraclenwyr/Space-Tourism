@@ -1,177 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space Tourism</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Space Tourism</title>
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/animate.css/animate.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <div class="container-fluid">
-        <div class="row main-bg">
-            <div class="">
-                <nav class="navbar navbar-expand-lg navbar-light mt-4 wow animate__animated animate__fadeInDown">
-                    <div>
-                        <a class="navbar-brand" href="#">
-                            <img src="/space-tourism-website-main/starter-code/assets/shared/logo.svg" alt="">
-                        </a>
+        <link rel="stylesheet" href="/space-tourism-website-main/node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="space-tourism-website-main/node_modules/animate.css/animate.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="row main-bg">
+                <div class="">
+                    <nav class="navbar navbar-expand-lg navbar-light mt-4 wow animate__animated animate__fadeInDown">
+                        <div>
+                            <a class="navbar-brand" href="#">
+                                <img src="/space-tourism-website-main/starter-code/assets/shared/logo.svg" alt="">
+                            </a>
+                        </div>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse space-nav mt-3 mt-md-0" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-header">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white active" aria-current="page" href="#home">00 HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#destination">01 DESTINATION</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#crew">03 CREW</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#technology">04 TECHNOLOGY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="container" id="home">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-12 col-lg-4 row">
+                            <div class="text-center text-lg-start wow ms-0 ms-lg-5 mt-5 mt-md-0 animate__animated animate__fadeInLeft">
+                                <h5 class="text-secondary mb-3">SO, YOU WANT TO TRAVEL TO
+                                </h5>
+                                <h1 class="mb-3 display-1 fw-bold">S P A C E</h1>
+                                <p class="text-secondary">
+                                    Let’s face it; if you want to go to space, you might as well genuinely go to 
+                                                                    outer space and not hover kind of on the edge of it. Well sit back, and relax 
+                                                                    because we’ll give you a truly out of this world experience!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="text-center space-explore mt-3 wow animate__animated animate__fadeInRight">
+                                <svg class="h-50" id="Group" xmlns="http://www.w3.org/2000/svg" width="200" height="274" viewbox="0 0 274 274">
+                                    <circle id="Oval_Copy" data-name="Oval Copy" cx="137" cy="137" r="137" fill="#fff"/>
+                                    <text id="EXPLORE" transform="translate(62 154)" fill="#0b0d17" font-size="30" font-family="SegoeUI, Segoe UI" letter-spacing="0.063em">
+                                        <tspan x="0" y="0" class="fw-bold">EXPLORE</tspan>
+                                    </text>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse space-nav mt-3 mt-md-0" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                            <a class="nav-link text-white active" aria-current="page" href="#">00 HOME</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link text-white" href="#">01 DESTINATION</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link text-white" href="#">03 CREW</a>
-                            </li>  <li class="nav-item">
-                            <a class="nav-link text-white" href="#">04 TECHNOLOGY</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+                </div>
             </div>
-        
-            <div class="container">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-12 col-lg-4 row">
-                        <div class="text-center text-lg-start wow ms-0 ms-lg-5 mt-5 mt-md-0 animate__animated animate__fadeInLeft">
-                            <h5 class="text-secondary mb-3">SO, YOU WANT TO TRAVEL TO </h5>
-                            <h1 class="mb-3 display-1 fw-bold">S P A C E</h1>
-                            <p class="text-secondary">
-                                Let’s face it; if you want to go to space, you might as well genuinely go to 
-                                outer space and not hover kind of on the edge of it. Well sit back, and relax 
-                                because we’ll give you a truly out of this world experience!
-                            </p>
-                        </div>    
+        </div>
+
+        <section class="container-fluid" id="destination">
+            <div class="row space-destination align-items-center min-vh-100">
+                <div class="col-12 col-lg-7">
+                    <div class="mt-5 mb-3 text-center">
+                        <h3>
+                            <span class="text-secondary">01</span>
+                            PICK YOUR DESTINATION</h3>
                     </div>
-                    <div class="col-12 col-lg-6">
-                        <div class="text-center space-explore mt-3 wow animate__animated animate__fadeInRight">
-                            <svg class="h-50" id="Group" xmlns="http://www.w3.org/2000/svg" width="200" height="274" viewBox="0 0 274 274">
+                </div>
+
+                <div class="col-12 col-lg-7">
+                    <div class="d-flex justify-content-center wow animate__animated animate__fadeInUp">
+                        <img id="image" style="width: 300px;" src="space-tourism-website-main/starter-code/assets/destination/image-moon.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="mt-5 wow animate__animated animate__fadeInRight">
+                        <div class="space-destination-nav mb-4">
+                            <span class="" onclick="changeplanet(0)">MOON</span>
+                            <span class="" onclick="changeplanet(1)">MARS</span>
+                            <span class="" onclick="changeplanet(2)">EUROPA</span>
+                            <span class="" onclick="changeplanet(3)">TITAN</span>
+                        </div>
+                        <h1 class="display-1" id="nameofplanet">MOON</h1>
+                        <p class="w-75 text-secondary" id="description">
+                            See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+                                                    regain perspective and come back refreshed. While you’re there, take in some history 
+                                                    by visiting the Luna 2 and Apollo 11 landing sites.
+                        </p>
+                        <hr>
+                        <div class="d-flex justify-content-around">
+                            <div>
+                                <p>Avg. distance</p>
+                                <p id="distance">384,400 km</p>
+                            </div>
+
+                            <div>
+                                <p>Est. travel time</p>
+                                <p id="duration">3 days</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container-fluid" id="crew">
+            <div class="row space-crew min-vh-100">
+                <div class="container">
+                    <div class="row mt-5 vh-100 d-flex justify-content-center align-items-center">
+
+                        <div class="row">
+                            <div class="text-center col-lg-6">
+                                <h3>
+                                    <span class="text-secondary">02</span>
+                                    MEET YOUR CREW</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-7">
+                            <div class="text-center text-lg-start wow mt-5 mt-md-0 animate__animated animate__flipInX">
+
+                                <h5 class="text-secondary mb-3">Flight Engineer</h5>
+                                <h1 class="mb-3 text-capitalize">Anousheh Ansari</h1>
+                                <p class="text-secondary w-100">
+                                    Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
+                                    Ansari was the fourth self-funded space tourist, the first self-funded woman to 
+                                    fly to the ISS, and the first Iranian in space.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2">
+                            <div class="text-center wow animate__animated animate__fadeInDown">
+                                <img width="250px" src="space-tourism-website-main/starter-code/assets/crew/image-anousheh-ansari.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid space-lauch" id="technology">
+            <div class="row min-vh-100">
+
+                <div class="row mt-5">
+                    <div class="text-center col-lg-7 mb-5">
+                        <h3>
+                            <span class="text-secondary"> 03 </span>
+                           Space launch 101
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-lg-1">
+                        <div class="space-lauch-no mx-auto">
+                            <svg class="small" id="Group" xmlns="http://www.w3.org/2000/svg" height="100" width="50px" viewbox="0 0 274 274">
                                 <circle id="Oval_Copy" data-name="Oval Copy" cx="137" cy="137" r="137" fill="#fff"/>
-                                <text id="EXPLORE" transform="translate(62 154)" fill="#0b0d17" font-size="30" font-family="SegoeUI, Segoe UI" letter-spacing="0.063em"><tspan x="0" y="0" class="fw-bold">EXPLORE</tspan></text>
+                                <text id="EXPLORE" transform="translate(62 154)" fill="#0b0d17" font-size="" font-family="SegoeUI, Segoe UI" letter-spacing="0.063em">
+                                    <tspan x="0" y="0" class="fw-bold">1</tspan>
+                                </text>
                             </svg>
-                        </div>    
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <section class="container-fluid" id="destination">
-        <div class="row space-destination align-items-center min-vh-100">
-            <div class="col-12 col-lg-7">
-                <div class="mt-5 mb-3 text-center">
-                    <h3><span class="text-secondary">01</span> PICK YOUR DESTINATION</h3>
-                </div>
-            </div>
-
-            <div class="col-12 col-lg-7">
-                <div class="d-flex justify-content-center wow animate__animated animate__fadeInUp">
-                    <img id="image" style="width: 300px;" src="space-tourism-website-main/starter-code/assets/destination/image-moon.png" alt="">
-                </div>
-            </div>
-            <div class="col-12 col-lg-4">
-                <div class="mt-5 wow animate__animated animate__fadeInRight">
-                    <div class="space-destination-nav mb-4">
-                        <span class="" onclick="changeplanet(0)">MOON</s>
-                        <span class="" onclick="changeplanet(1)">MARS</s>
-                        <span class="" onclick="changeplanet(2)">EUROPA</s>
-                        <span class="" onclick="changeplanet(3)">TITAN</s>
-                    </div>
-                    <h1 class="display-1" id="nameofplanet">MOON</h1>
-                    <p class="w-75 text-secondary" id="description">
-                        See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-                        regain perspective and come back refreshed. While you’re there, take in some history 
-                        by visiting the Luna 2 and Apollo 11 landing sites.                  
-                    </p>
-                    <hr>
-                    <div class="d-flex justify-content-around">
-                        <div>
-                            <p>Avg. distance</p>
-                            <p id="distance">384,400 km</p>
-                        </div>
-                       
-                        <div>
-                            <p>Est. travel time</p>
-                            <p id="duration">3 days</p>
+                            <svg class="small" id="Group" xmlns="http://www.w3.org/2000/svg" height="100" width="50px" viewbox="0 0 274 274">
+                                <circle id="Oval_Copy" data-name="Oval Copy" cx="137" cy="137" r="137" fill="#fafafa"/>
+                                <text id="EXPLORE" transform="translate(62 154)" fill="#0b0d17" font-size="30" font-family="SegoeUI, Segoe UI" letter-spacing="0.063em">
+                                    <tspan x="0" y="0" class="fw-bold"></tspan>
+                                </text>
+                            </svg>
+                            <svg class="small" id="Group" xmlns="http://www.w3.org/2000/svg" height="100" width="50px" viewbox="0 0 274 274">
+                                <circle id="Oval_Copy" data-name="Oval Copy" cx="137" cy="137" r="137" fill="#fafafa"/>
+                                <text id="EXPLORE" transform="translate(62 154)" fill="#0b0d17" font-size="30" font-family="SegoeUI, Segoe UI" letter-spacing="0.063em">
+                                    <tspan x="0" y="0" class="fw-bold text-center"></tspan>
+                                </text>
+                            </svg>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <div class="container-fluid">
-        <div class="row space-crew min-vh-100">
-            <div class="container">
-                <div class="row mt-5 vh-100 d-flex justify-content-center align-items-center">
-                    
-                    <div class="row">
-                        <div class="text-center col-lg-5">
-                            <h3><span class="text-secondary">02</span> MEET YOUR CREW</h3>
-                        </div>
-                    </div>
-                    
-                    <div class="col-12 col-lg-5">
-                        <div class="text-center text-lg-start wow mt-5 mt-md-0 animate__animated animate__flipInX">
+                    <div class="col-12 col-lg-4">
+                        
+                        <div class="text-center text-lg-start wow ms-0 ms-lg-5 mt-5 mt-md-0 animate__animated animate__fadeInLeft">
                             
-                            <h5 class="text-secondary mb-3">Flight Engineer</h5>
-                            <h1 class="mb-3 text-capitalize">Anousheh Ansari</h1>
-                            <p class="text-secondary">
-                                Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
-                                Ansari was the fourth self-funded space tourist, the first self-funded woman to 
-                                fly to the ISS, and the first Iranian in space. 
+                            <h5 class="text-secondary mb-3">THE TERMINOLOGY...
+                            </h5>
+                            <h1 class="mb-3">LAUNCH VENICLE</h1>
+                            <p class="text-secondary mb-5">
+                                A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+                                payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+                                WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+                                it's quite an awe-inspiring sight on the launch pad!
                             </p>
-                        </div>    
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-5">
-                        <div class="text-center wow animate__animated animate__fadeInDown">
-                            <img width="300px" src="space-tourism-website-main/starter-code/assets/crew/image-anousheh-ansari.png" alt="">
-                        </div>    
+                    <div class="col-12 col-lg-3">
+                        <div class="space-lauch-photo">
+                            <img style="width:350px;" src="space-tourism-website-main/starter-code/assets/technology/image-launch-vehicle-portrait.jpg" alt="">
+                        </div>
                     </div>
                 </div>
+                
+               
             </div>
-        </div>
-    </div>
+        </section>
 
-<script src="planet.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="node_modules/wow.js/dist/wow.js"></script>
+        <script src="planet.js"></script>
+        <script src="space-tourism-website-main/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="space-tourism-website-main/node_modules/wow.js/dist/wow.js"></script>
 
-<script>
-     let wow = new WOW(
-        {
-            boxClass:     'wow',      // animated element css class (default is wow)
-            animateClass: 'animate__animated', // animation css class (default is animated)
-            offset:       250,          // distance to the element when triggering the animation (default is 0)
-            mobile:       true,       // trigger animations on mobile devices (default is true)
-            live:         true,       // act on asynchronously loaded content (default is true)
-            callback:     function(box) {
-                // the callback is fired every time an animation is started
-                // the argument that is passed in is the DOM node being animated
-            },
-            scrollContainer: null,    // optional scroll container selector, otherwise use window,
-            resetAnimation: true,     // reset animation on end (default is true)
-        }
-    );
-    wow.init();
-</script>
-</body>
+        <script>
+            let wow = new WOW({
+                boxClass: 'wow', // animated element css class (default is wow)
+                animateClass: 'animate__animated', // animation css class (default is animated)
+                offset: 250, // distance to the element when triggering the animation (default is 0)
+                mobile: true, // trigger animations on mobile devices (default is true)
+                live: true, // act on asynchronously loaded content (default is true)
+                callback: function (box) {
+                    // the callback is fired every time an animation is started
+                    // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null, // optional scroll container selector, otherwise use window,
+                resetAnimation: true, // reset animation on end (default is true)
+            });
+            wow.init();
+        </script>
+    </body>
 </html>

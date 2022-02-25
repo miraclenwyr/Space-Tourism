@@ -12,6 +12,12 @@
     background-image: url(space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
     height: 100vh;
 }
+/* .nav-header{
+    background-color: #ffffff9c !important;
+    border-start-end-radius: 10px;
+    backdrop-filter: saturate(180%) blur(20px);
+    z-index : 1000;
+} */
 @media only screen and (max-width: 600px) {
    
     .main-bg{
@@ -20,6 +26,11 @@
 
     .space-explore svg{
         width: 200px;
+    }
+
+    .space-lauch-no {
+        display: flex;
+        justify-content: space-evenly;
     }
 
 }
@@ -59,4 +70,16 @@
     100%{
         transform: translateY(10%);
     }
+}
+
+
+.space-lauch{
+    background-image: url(space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg);
+}
+.space-lauch-no1:first-child{
+    /* background-color: white; */
+    border: 1px solid white;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
 }
