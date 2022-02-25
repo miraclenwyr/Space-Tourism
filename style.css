@@ -18,7 +18,7 @@
     backdrop-filter: saturate(180%) blur(20px);
     z-index : 1000;
 } */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 499px) {
    
     .main-bg{
         background-image: url(space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg);
