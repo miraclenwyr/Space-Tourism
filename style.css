@@ -18,7 +18,7 @@
     backdrop-filter: saturate(180%) blur(20px);
     z-index : 1000;
 } */
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 350px) {
    
     .main-bg{
         background-image: url(space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg);
@@ -33,6 +33,10 @@
         justify-content: space-evenly;
     }
 
+    .space-lauch-photo img{
+       margin-bottom: 30px;
+       height: 100px;
+    }
 }
 .space-nav li{
     padding: 0 15px;
@@ -82,4 +86,29 @@
     border-radius: 50%;
     color: black;
     text-align: center;
+}
+
+.various-planets{
+    animation-name: zoomIn;
+    animation-duration: 2s;
+}
+
+.space-lauch-photo img{
+    width: 350px;
+}
+
+.space-no1{
+    transition: 0.5s;
+    animation: rollIn 1s 2s alternate infinite;
+}
+
+.space-no3{
+    transition: 0.5s;
+    animation: rollOut 1s 2s alternate infinite;
+}
+
+
+.space-no2{
+    transition: 0.5s;
+    animation: jackInTheBox 1s 2s alternate infinite;
 }

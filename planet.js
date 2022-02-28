@@ -44,6 +44,5 @@ function changeplanet(x){
     
 }
 
-console.log(changeplanet(x));
-
+// console.log(changeplanet(x));
 
