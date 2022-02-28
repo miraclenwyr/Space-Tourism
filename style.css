@@ -74,11 +74,17 @@
     animation: spin 1s linear alternate infinite;
 }
 
-@keyframes spin {
+.space-destination #image:hover{
+    transition: 0.5s;
+    animation: zoomIn 1s;
+    cursor: pointer;
+}
+ 
+ @keyframes spin {
     100%{
         transform: translateY(10%);
     }
-}
+} 
 
 
 .space-lauch{
@@ -92,10 +98,6 @@
     text-align: center;
 }
 
-.various-planets{
-    animation-name: zoomIn;
-    animation-duration: 2s;
-}
 
 .space-lauch-photo img{
     width: 350px;

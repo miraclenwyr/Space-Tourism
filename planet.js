@@ -46,3 +46,6 @@ function changeplanet(x){
 
 // console.log(changeplanet(x));
 
+// document.getElementById('image').addEventListener('click', function () {
+//     return this.classList.add('various-planets')
+// })
