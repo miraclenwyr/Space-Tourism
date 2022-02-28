@@ -14,13 +14,14 @@
         <link rel="stylesheet" href="/space-tourism-website-main/node_modules/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="space-tourism-website-main/node_modules/animate.css/animate.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
     <body>
 
         <div class="container-fluid">
             <div class="row main-bg">
                 <div class="">
-                    <nav class="navbar navbar-expand-lg navbar-light mt-4 wow animate__animated animate__fadeInDown">
+                    <nav class="navbar navbar-expand-lg navbar-light wow animate__animated animate__fadeInDown">
                         <div>
                             <a class="navbar-brand" href="#">
                                 <img src="/space-tourism-website-main/starter-code/assets/shared/logo.svg" alt="">
@@ -39,10 +40,10 @@
                                     <a class="nav-link text-white" href="#destination">01 DESTINATION</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="#crew">03 CREW</a>
+                                    <a class="nav-link text-white" href="#crew">02 CREW</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="#technology">04 TECHNOLOGY</a>
+                                    <a class="nav-link text-white" href="#technology">03 TECHNOLOGY</a>
                                 </li>
                             </ul>
                         </div>
@@ -221,9 +222,14 @@
             </div>
         </section>
 
+        <a href="#home" class="btn small scroll-to-top position-fixed animate__animated">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>    
+
         <script src="planet.js"></script>
         <script src="space-tourism-website-main/node_modules/bootstrap/dist/js/bootstrap.js"></script>
         <script src="space-tourism-website-main/node_modules/wow.js/dist/wow.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/noframework.waypoints.min.js"></script>
 
         <script>
             let wow = new WOW({
@@ -240,6 +246,22 @@
                 resetAnimation: true, // reset animation on end (default is true)
             });
             wow.init();
+
+            let waypoint = new Waypoint({
+
+                element: document.getElementById('menu'),
+                handler:function(direction){
+                    if(direction === 'down'){  
+                        scrollToTop.classList.remove("d-none",);
+                        scrollToTop.classList.add("animate__shakeY",);
+                    }else{
+                        scrollToTop.classList.add("d-none");
+                        scrollToTop.classList.remove("animate__shakeY");
+                    }
+                },
+
+                offset : '75%',
+            })
         </script>
     </body>
 </html>
