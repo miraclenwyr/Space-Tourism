@@ -66,6 +66,7 @@
 }
 .space-crew{
     background-image: url(space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg);
+    height: 100vh;
 }
 
 .space-destination #image{
