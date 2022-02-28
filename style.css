@@ -127,13 +127,10 @@
 }
 
 .space-footer{
-    background-image: url(space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
+    background-image: url(space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg);
 }
 
-.footer {
-    display: flex;
-    justify-content: space-evenly;
-  }
+
   .footer h2 {
     margin-bottom: 50px;
   }
@@ -156,7 +153,7 @@
   }
   .about {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
   }
   .about a{
       text-decoration: none;
@@ -172,4 +169,12 @@
   }
   .about li a {
     color: rgb(168, 168, 168);
+  }
+
+  .space-footer li{
+      cursor: pointer;
+      color: rgb(224, 224, 224);
+  }
+  .space-footer li:hover{
+      color: #3088A4;
   }
