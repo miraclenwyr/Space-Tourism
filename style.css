@@ -37,6 +37,10 @@
        margin-bottom: 30px;
        height: 100px;
     }
+
+    .space-crew {
+        background-image: url(space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg);
+    }
 }
 .space-nav li{
     padding: 0 15px;
@@ -118,3 +122,51 @@
     right: 20px;
     background-color: #3088A4;
 }
+
+.space-footer{
+    background-image: url(space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer h2 {
+    margin-bottom: 50px;
+  }
+  .footer p {
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: rgb(168, 168, 168);
+  }
+  .footer i {
+    line-height: 2rem;
+    font-size: 13px;
+  }
+  
+  .company {
+    cursor: pointer;
+    min-width: 100px;
+    height: auto;
+    text-align: left;
+    margin-top: 100px;
+  }
+  .about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .about a{
+      text-decoration: none;
+  }
+  .about ul {
+    margin-top: -10px;
+  }
+  .about li {
+    line-height: 1.5rem;
+  }
+  .about li a:hover {
+    color: rgb(255, 217, 213);
+  }
+  .about li a {
+    color: rgb(168, 168, 168);
+  }
