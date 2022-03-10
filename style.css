@@ -24,6 +24,12 @@
         background-image: url(space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg);
     }
 
+    .space-crew {
+        background-image: url(space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg);
+    }
+
+    
+
     .space-explore svg{
         width: 200px;
     }
@@ -38,9 +44,7 @@
        height: 100px;
     }
 
-    .space-crew {
-        background-image: url(space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg);
-    }
+   
 }
 .space-nav li{
     padding: 0 15px;
@@ -66,7 +70,6 @@
 }
 .space-crew{
     background-image: url(space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg);
-    height: 100vh;
 }
 
 .space-destination #image{
@@ -101,7 +104,7 @@
 
 
 .space-lauch-photo img{
-    width: 350px;
+    width: 250px;
 }
 
 .space-no1{
